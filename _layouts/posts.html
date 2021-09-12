@@ -1,0 +1,29 @@
+---
+layout: page
+---
+
+<h4>Description</h4>
+{{ page.description }}
+{{content}}
+<hr/>
+
+{% assign category = page.dir | replace: '/', '' %}
+  <div class="row">
+    {% for post in site.categories[category] %}
+      <div class="col-auto m-2">
+        <a href="{{ post.url }}">
+          <div class="card h-100 posts">
+            {% if post.img %}
+              <img class="card-img-top" src="{{post.img}}" alt="{{post.alt}}"/>
+            {% else %}
+              <img class="card-img-top" src="/images/gemfile.png" alt="Card image cap" />
+            {% endif %}
+            <div class="card-body">
+              <h5 class="card-title">{{ post.title }}</h5>
+              <p class="card-text">{{ post.description | slice: 0, 60 }}...</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    {% endfor%}
+  </div>

@@ -1,0 +1,97 @@
+section {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px;
+}
+
+blockquote {
+  color: #b5e853;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 1em;
+  border-radius: 4px;
+}
+
+.navbar ul li  {
+  list-style-image: none;
+}
+
+.navbar-collapse {
+  justify-content: center;
+}
+
+.contact {
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+}
+
+.thumbnail {
+  float: left; /* replaces the style previously inherited by the browser */
+  margin: 0 16px 16px 0;
+}
+
+.description {
+  font-style: italic;
+  color: #b5e853;
+}
+
+.share-box {
+  text-align: center;
+}
+.share-box a {
+  display: inline-block;
+  -webkit-box-shadow: 0 0 1px #777;
+  box-shadow: 0 0 1px #777;
+  padding: 5px 12px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  text-decoration: none; }
+  .share-box a:hover {
+    text-decoration: none;
+    -webkit-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear; }
+
+.f {
+  color: #3b5998; }
+  .f:hover {
+    color: #fff;
+    background-color: #3b5998; }
+
+.t {
+  color: #4099FF; }
+  .t:hover {
+    color: #fff;
+    background-color: #4099FF; }
+
+.g {
+  color: #d34836; }
+  .g:hover {
+    color: #fff;
+    background-color: #d34836; }
+
+.r {
+  color: #ff5700; }
+  .r:hover {
+    color: #fff;
+    background-color: #ff5700; }
+
+.l {
+  color: #0077b5; }
+  .l:hover {
+    color: #fff;
+    background-color: #0077b5; }
+
+.e {
+  color: #444444; }
+  .e:hover {
+    color: #fff;
+    background-color: #444444; }
+
+.title {
+  text-align: center;
+}

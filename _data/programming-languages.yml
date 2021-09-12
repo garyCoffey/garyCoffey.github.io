@@ -1,0 +1,47 @@
+python:
+  id: 'Python'
+  experience_level: 'Low'
+  production_work: 'No'
+  fa-icon: 'fab fa-python'
+
+go:
+  id: 'Golang'
+  experience_level: 'High'
+  production_work: 'Yes'
+  fa-icon: ''
+
+ruby:
+  id: 'Ruby'
+  experience_level: 'High'
+  production_work: 'Yes'
+  fa-icon: 'fas fa-gem'
+
+java:
+  id: 'Java'
+  experience_level: 'Low'
+  production_work: 'No'
+  fa-icon: 'fab fa-java'
+
+javascript:
+  id: 'JavaScript'
+  experience_level: 'Medium'
+  production_work: 'Yes'
+  fa-icon: 'fab fa-js'
+
+react:
+  id: 'React'
+  experience_level: 'Low'
+  production_work: 'No'
+  fa-icon: 'fab fa-react'
+
+vueJs:
+  id: 'Vue Js'
+  experience_level: 'Medium'
+  production_work: 'Yes'
+  fa-icon: 'fab fa-vuejs'
+
+aws:
+  id: 'AWS'
+  experience_level: 'Medium'
+  production_work: 'Yes'
+  fa-icon: 'fab fa-aws'

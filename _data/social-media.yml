@@ -1,0 +1,22 @@
+email:
+  id: 'garycoffey12@gmail.com'
+  href: 'mailto:'
+  title: 'Email'
+  fa-icon: 'fa-envelope-square fa-2x'
+
+github:
+  id: 'garyCoffey'
+  href: 'https://github.com/'
+  title: 'GitHub'
+  fa-icon: 'fa-github-square fa-2x'
+
+linkedin:
+  id: 'gary-coffey'
+  href: 'http://www.linkedin.com/in/'
+  title: 'LinkedIn'
+  fa-icon: 'fa-linkedin fa-2x'
+
+phone:
+  id: '312-720-6377'
+
+

@@ -1,0 +1,48 @@
+---
+---
+@import "{{ site.theme }}";
+@import "main";
+
+.thumbnail {
+  border: 1px solid #b5e853; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 150px; /* Set a small width */
+}
+.card {
+  &.post {
+    background-color: #151515;
+    text-align: center;
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border: 1px solid #b5e853; /* Gray border */
+      border-radius: 4px;  /* Rounded border */
+      padding: 5px; /* Some padding */
+      width: 400px; /* Set a small width */
+      height: 250px;
+    }
+  }
+  &.posts {
+    display: flex;
+    margin: 10px;
+    width: 20rem;
+    img {
+      border: 1px solid #b5e853; /* Gray border */
+      border-radius: 4px;  /* Rounded border */
+      padding: 5px; /* Some padding */
+      width: 400px; /* Set a small width */
+      height: 250px;
+    }
+    .card-body {
+      background-color: #b5e853;
+      .card-title {
+        color: #151515;
+      }
+      .card-text {
+        color: #151515;
+      }
+    }
+  }
+}

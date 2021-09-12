@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<div class="card post">
+  {% if page.img %}
+    <img alt={{page.alt}} src={{page.img}}></img>
+  {% endif %}
+  <div class="card-body">
+    <h5 class="card-title">{{ page.title }}</h5>
+    {% if page.description %}
+      <p class='description card-text'>{{ page.description }}</p>
+    {% endif %}
+    <p class="description card-text">{{ page.date | date: '%B %d, %Y' }}</p>
+  </div>
+</div>
+<hr/>
+
+<div>
+  {% if page.github_name %}
+    <h4>Code on Github</h4>
+    <a href="{{ site.data.social-media['github'].href }}{{ site.data.social-media['github'].id }}/{{page.github_name}}" title="{{ site.data.social-media['github'].title }}"><i class="fa {{ site.data.social-media['github'].fa-icon }}"></i></a>
+  {% endif %}
+  {{content}}
+  {% include  share.html %}
+</div>
