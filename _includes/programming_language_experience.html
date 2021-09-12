@@ -1,0 +1,32 @@
+{% if site.data.programming-languages %}
+  <div id="programming-languages">
+    <table style="width:50%">
+      <tr>
+        <th></th>
+        <th>Language</th>
+        <th>Experience Level</th>
+        <th>Production Work</th>
+      </tr>
+      {% assign sm = site.data.programming-languages %}
+      {% for entry in sm %}
+          {% assign key = entry | first %}
+          {% if sm[key].id %}
+            <tr>
+              <td>
+                <i class="{{ sm[key].fa-icon }} fa-2x"></i>
+              </td>
+              <td>
+                {{sm[key].id}}
+              </td>
+              <td>
+                {{sm[key].experience_level}}
+              </td>
+              <td>
+                {{sm[key].production_work}}
+              </td>
+            </tr>
+          {% endif %}
+      {% endfor %}
+    </table>
+  </div>
+{% endif %}

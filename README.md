@@ -1,0 +1,1 @@
+Please go [here](https://garycoffey.github.io/about/) to view the docs for the site.
