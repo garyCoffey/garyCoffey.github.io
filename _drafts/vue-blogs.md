@@ -3,7 +3,7 @@ layout: post
 title: "PlaceHOLDER"
 github_name: "vue_blogs"
 categories: projects
-description: A site where I can keep my blogs and games. And whatever else I think could go there. The site can be found [here](https://master.duar4efa9xb.amplifyapp.com/)
+description: A site where I can keep my blogs and games. And whatever else I think could go there. The site can be found [here](https://main.duar4efa9xb.amplifyapp.com/)
 ---
 
 
