@@ -18,8 +18,8 @@ ruby:
 
 java:
   id: 'Java'
-  experience_level: 'Low'
-  production_work: 'No'
+  experience_level: 'High'
+  production_work: 'Yes'
   fa-icon: 'fab fa-java'
 
 javascript:
